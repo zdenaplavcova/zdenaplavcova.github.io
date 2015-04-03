@@ -1,0 +1,32 @@
+<footer>
+    <div class="container" id="contacts">
+        <div class="row-text-center">
+            <div class="col-md-3 text-center">
+                <h4></h4>
+                <p></p>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>Kontakty</h4>
+                <ul class="list-unstyled">
+                    {% for contact in site.contacts %}
+                    <li>{{ contact.label }}: <a href="{{ contact.url }}">{{ contact.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4>Sociální sítě</h4>
+                <ul class="list-unstyled social-buttons">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}">{{ network.title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="col-md-3 text-center">
+                <h4></h4>
+                <p></p>
+            </div>
+        </div>
+    </div>
+</footer>

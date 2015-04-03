@@ -1,0 +1,31 @@
+﻿url: http://zdenaplavcova.github.io
+
+# Site settings
+title: Zdena Plavcová - designové obrazy
+email: zdena.plavcova@seznam.cz
+description: ""
+
+# Contacts
+contacts:
+  - title: +420 777 852 897
+    url: tel:+420 777 852 897
+    label: telefon
+  - title: zdena.plavcova@seznam.cz
+    url: zdena.plavcova@seznam.cz
+    label: e-mail
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: Facebook
+    url: https://www.facebook.com/designoveobrazy
+
+# Top images
+topimages:
+  - url: /assets/top-images/IMGP1752-wide.jpg
+  - url: /assets/top-images/IMGP2540-wide.jpg
+  - url: /assets/top-images/IMGP3770-wide.jpg
+  - url: /assets/top-images/IMGP9686-wide.jpg
+
+# Build settings
+markdown: kramdown
+permalink: pretty

@@ -1,0 +1,66 @@
+body {
+    padding-top: 50px;
+}
+
+.flexslider {
+    background: none;
+    border: none;
+    box-shadow: none;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.flex-direction-nav a {
+    height: 45px;
+}
+
+section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.section-heading {
+    margin-bottom: 25px;
+}
+
+#services {
+    box-shadow: 0 0 5px #aaaaaa;
+    background-color:  #efefef;    
+}
+
+#portfolio {
+}
+
+footer {
+    background-color: #efefef;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0 0 5px #aaaaaa;
+}
+
+.gallery {
+    padding:  0;
+    margin:  0;
+    margin-left: auto;
+    margin-right: auto;
+    width:  100%;
+}
+
+@media(min-width:1281px) { 
+    .gallery {
+        width:  1280px;
+    }
+}
+
+@media(min-width:768px) { 
+
+    section, footer {
+        padding-top:  50px;
+        padding-bottom: 50px;
+    }
+
+}
